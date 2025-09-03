@@ -4,12 +4,8 @@ import Navbar from "@/Components/Navbar.vue";
 
 <template>
     <div class="bg-[url('https://cdn.radiosputnik.ru/images/148340/76/1483407615_0:386:7360:4526_1920x1080_80_0_0_a4a83e018bd75d8e99c6c66b3eedd954.jpg')] bg-no-repeat bg-cover bg-center h-screen w-screen flex flex-col items-center justify-center">
-
-        <div class="absolute top-0 left-0 w-full z-10">
-            <Navbar/>
-        </div>
-
-        <div class="bg-white/50 backdrop-blur-sm p-6 rounded-lg shadow-lg max-w-3xl mx-auto my-auto w-11/12 md:w-1/2">
+        <Navbar/>
+        <div class="bg-gray-100/50 backdrop-blur-lg p-6 rounded-[20px] ring-1 ring-inset ring-gray-50/20 shadow-lg max-w-3xl mx-auto w-11/12 md:w-1/2 mt-[60px] mb-[40px]">
             <h2 class="text-3xl font-bold mb-4 text-gray-800">О нас</h2>
             <p class="text-gray-800 leading-relaxed mb-4">
                 Миссия <strong class="text-blue-700">F4studio</strong> — приносить радость и новые эмоции через интерактивные развлечения.
@@ -23,6 +19,3 @@ import Navbar from "@/Components/Navbar.vue";
         </div>
     </div>
 </template>
-
-<style scoped>
-</style>
