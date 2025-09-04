@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <nav class="bg-gray-100/50 backdrop-blur-lg p-4 flex justify-between items-center fixed top-0 w-full z-10 shadow-lg ring-1 ring-inset ring-gray-50/20">
+    <nav class="bg-gray-100/50 backdrop-blur-[5px] p-4 flex justify-between items-center fixed top-0 w-full z-10 shadow-lg ring-1 ring-inset ring-gray-50/20">
         <a href="/games" class="text-xl font-bold text-gray-800">
             <img src="https://erp.f4st.dev/assets/images/logo.svg" alt="logo">
         </a>

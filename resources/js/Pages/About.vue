@@ -3,9 +3,9 @@ import Navbar from "@/Components/Navbar.vue";
 </script>
 
 <template>
-    <div class="bg-[url('https://cdn.radiosputnik.ru/images/148340/76/1483407615_0:386:7360:4526_1920x1080_80_0_0_a4a83e018bd75d8e99c6c66b3eedd954.jpg')] bg-no-repeat bg-cover bg-center h-screen w-screen flex flex-col items-center justify-center">
+    <div  class="relative min-h-screen flex items-center pt-16">
         <Navbar/>
-        <div class="bg-gray-100/50 backdrop-blur-lg p-6 rounded-[20px] ring-1 ring-inset ring-gray-50/20 shadow-lg max-w-3xl mx-auto w-11/12 md:w-1/2 mt-[60px] mb-[40px]">
+        <div class="bg-gray-100/50 backdrop-blur-[5px] p-6 rounded-[20px] ring-1 ring-inset ring-gray-50/20 shadow-lg max-w-3xl mx-auto w-11/12 md:w-1/2">
             <h2 class="text-3xl font-bold mb-4 text-gray-800">О нас</h2>
             <p class="text-gray-800 leading-relaxed mb-4">
                 Миссия <strong class="text-blue-700">F4studio</strong> — приносить радость и новые эмоции через интерактивные развлечения.
